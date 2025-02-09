@@ -1,0 +1,116 @@
+{
+	"common": {
+		"name": "alarm_and_message_logging",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Alarm and message logging",
+			"de": "Alarm- und Meldungsprotokollierung",
+			"ru": "Будильник и регистрация сообщений",
+			"pt": "Alarme e registro de mensagens",
+			"nl": "Alarm- en berichtlogboekregistratie",
+			"fr": "Journalisation des alarmes et des messages",
+			"it": "Registrazione di allarme e messaggio",
+			"es": "Registro de alarmas y mensajes",
+			"pl": "Rejestrowanie alarmów i wiadomości",
+			"uk": "Журнал сигналів та повідомлень",
+			"zh-cn": "警报和消息记录"
+		},
+		"desc": {
+			"en": "Log your alarms or messages. Build Groups which send mails or do some other actions. Integrate a logview into your vis if you want.",
+			"de": "Protokollieren Sie Ihre Alarme oder Nachrichten. Erstellen Sie Gruppen, die Mails senden oder andere Aktionen ausführen. Integrieren Sie eine Logview in Ihr VIS, wenn Sie möchten.",
+			"ru": "Войдите в систему своих сигналов тревоги или сообщений. Стройте группы, которые отправляют почту или делают какие -то другие действия. Интегрируйте logview в свой VIS, если хотите.",
+			"pt": "Registre seus alarmes ou mensagens. Construa grupos que enviam e -mails ou realizam outras ações. Integre uma visão de log no seu VID, se desejar.",
+			"nl": "Log uw alarmen of berichten in. Bouw groepen die e -mails verzenden of andere acties uitvoeren. Integreer een logview in uw vis als u wilt.",
+			"fr": "Enregistrez vos alarmes ou vos messages. Créer des groupes qui envoient des courriers ou effectuent d'autres actions. Intégrez un LogView à votre vis si vous le souhaitez.",
+			"it": "Registra gli allarmi o i messaggi. Costruisci gruppi che inviano posta o fanno altre azioni. Integra un logview nel tuo vis se lo desideri.",
+			"es": "Registre sus alarmas o mensajes. Construya grupos que envíen correos o realicen otras acciones. Integre un registro de registro en su VIS si lo desea.",
+			"pl": "Zaloguj swoje alarmy lub wiadomości. Buduj grupy, które wysyłają maile lub wykonują inne działania. Jeśli chcesz, zintegruj logview do swojego VIS.",
+			"uk": "Реєструйте свої тривоги або повідомлення. Будуйте групи, які надсилають листи або роблять деякі інші дії. Інтегруйте LogView у ваш VIS, якщо хочете.",
+			"zh-cn": "记录您的警报或消息。建立发送邮件或执行其他操作的组。如果需要，将logView集成到您的VIS中。"
+		},
+		"authors": [
+			"UniversalBiggi <musiker-vorhoff@gmx.de>"
+		],
+		"keywords": [
+			"alarm",
+			"logging",
+			"messages",
+			"Störmeldungen"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "alarm_and_message_logging.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/UniversalBiggi/ioBroker.alarm_and_message_logging/main/admin/alarm_and_message_logging.png",
+		"readme": "https://github.com/UniversalBiggi/ioBroker.alarm_and_message_logging/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"restartAdapters": [
+			"vis"
+		],
+		"mode": "daemon",
+		"type": "alarm",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "materialize",
+			"tab": "materialize"
+		},
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "Alarm and message logging",
+				"de": "Alarm- und Meldungsprotokollierung",
+				"ru": "Будильник и регистрация сообщений",
+				"pt": "Alarme e registro de mensagens",
+				"nl": "Alarm- en berichtlogboekregistratie",
+				"fr": "Journalisation des alarmes et des messages",
+				"it": "Registrazione di allarme e messaggio",
+				"es": "Registro de alarmas y mensajes",
+				"pl": "Rejestrowanie alarmów i wiadomości",
+				"uk": "Журнал сигналів та повідомлень",
+				"zh-cn": "警报和消息记录"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"eraseOnUpload": true,
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			},
+			"vis"
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

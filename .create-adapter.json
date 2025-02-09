@@ -1,0 +1,48 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "alarm_and_message_logging",
+	"title": "Alarm and message logging",
+	"description": "Log your alarms or messages. Build Groups which send mails or do some other actions. Integrate a logview into your vis if you want.",
+	"keywords": [
+		"alarm",
+		"logging",
+		"messages",
+		"Störmeldungen"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter",
+		"vis"
+	],
+	"adminFeatures": [
+		"tab",
+		"custom"
+	],
+	"type": "alarm",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "TypeScript",
+	"nodeVersion": "20",
+	"adminUi": "react",
+	"tabReact": "yes",
+	"tools": [
+		"ESLint"
+	],
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "single",
+	"authorName": "UniversalBiggi",
+	"authorGithub": "UniversalBiggi",
+	"authorEmail": "musiker-vorhoff@gmx.de",
+	"gitRemoteProtocol": "SSH",
+	"gitCommit": "yes",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"creatorVersion": "2.6.5"
+}
